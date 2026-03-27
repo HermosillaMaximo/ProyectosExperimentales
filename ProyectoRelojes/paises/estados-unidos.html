@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Productores - Estados Unidos</title>
+	<style>
+		:root {
+			--bg-a: #0b1016;
+			--bg-b: #1a2330;
+			--panel: rgba(8, 12, 18, 0.84);
+			--ink: #ecf2f8;
+			--soft: #adbed0;
+			--accent: #9cc9ff;
+			--border: rgba(156, 201, 255, 0.35);
+		}
+
+		* { box-sizing: border-box; margin: 0; padding: 0; }
+
+		body {
+			min-height: 100vh;
+			font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+			color: var(--ink);
+			background: radial-gradient(circle at 80% 10%, rgba(156, 201, 255, 0.16), transparent 28%), linear-gradient(145deg, var(--bg-a), var(--bg-b));
+			display: grid;
+			place-items: center;
+			padding: 22px;
+		}
+
+		.panel {
+			width: min(860px, 100%);
+			background: var(--panel);
+			border: 1px solid var(--border);
+			border-radius: 20px;
+			padding: 24px;
+			display: grid;
+			gap: 14px;
+		}
+
+		h1 { font-size: clamp(1.5rem, 4vw, 2.2rem); }
+		p { color: var(--soft); line-height: 1.5; }
+		h2 { margin-top: 10px; font-size: 1.15rem; }
+		ul { padding-left: 20px; display: grid; gap: 8px; }
+		a {
+			display: inline-block;
+			margin-top: 8px;
+			color: var(--accent);
+			text-decoration: none;
+			border-bottom: 1px solid transparent;
+		}
+		a:hover { border-color: var(--accent); }
+	</style>
+</head>
+<body>
+	<main class="panel">
+		<h1>Estados Unidos</h1>
+		<p>Estados Unidos es clave en relojeria de lujo por su mercado de coleccionistas y por marcas enfocadas en diseno deportivo-elegante y precision de alta gama.</p>
+
+		<h2>Rol en el mercado productor</h2>
+		<ul>
+			<li>Fuerte demanda de piezas iconicas para inversion.</li>
+			<li>Presencia de relojeria independiente y ediciones especiales para el mercado norteamericano.</li>
+			<li>Concentracion de subastas y casas especializadas en vintage premium.</li>
+		</ul>
+
+		<h2>Marcas y referencias asociadas</h2>
+		<ul>
+			<li>Shinola (Detroit) - enfoque en diseno clasico contemporaneo.</li>
+			<li>RGM Watch Co. - alta relojeria artesanal en series limitadas.</li>
+			<li>Colaboraciones exclusivas para el mercado de coleccion en ciudades como New York y Miami.</li>
+		</ul>
+
+		<a href="../pagina.html">Volver a RelojesDataVIP</a>
+	</main>
+</body>
+</html>

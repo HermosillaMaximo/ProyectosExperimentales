@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Productores - Japon</title>
+	<style>
+		:root {
+			--bg-a: #110f13;
+			--bg-b: #251a27;
+			--panel: rgba(18, 13, 20, 0.84);
+			--ink: #f1edf3;
+			--soft: #c8bed0;
+			--accent: #f3b7b7;
+			--border: rgba(243, 183, 183, 0.35);
+		}
+
+		* { box-sizing: border-box; margin: 0; padding: 0; }
+
+		body {
+			min-height: 100vh;
+			font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+			color: var(--ink);
+			background: radial-gradient(circle at 80% 15%, rgba(243, 183, 183, 0.16), transparent 28%), linear-gradient(145deg, var(--bg-a), var(--bg-b));
+			display: grid;
+			place-items: center;
+			padding: 22px;
+		}
+
+		.panel {
+			width: min(860px, 100%);
+			background: var(--panel);
+			border: 1px solid var(--border);
+			border-radius: 20px;
+			padding: 24px;
+			display: grid;
+			gap: 14px;
+		}
+
+		h1 { font-size: clamp(1.5rem, 4vw, 2.2rem); }
+		p { color: var(--soft); line-height: 1.5; }
+		h2 { margin-top: 10px; font-size: 1.15rem; }
+		ul { padding-left: 20px; display: grid; gap: 8px; }
+		a {
+			display: inline-block;
+			margin-top: 8px;
+			color: var(--accent);
+			text-decoration: none;
+			border-bottom: 1px solid transparent;
+		}
+		a:hover { border-color: var(--accent); }
+	</style>
+</head>
+<body>
+	<main class="panel">
+		<h1>Japon</h1>
+		<p>Japon combina innovacion tecnologica, precision industrial y una estetica refinada. Es un pais productor clave tanto en alta gama como en relojeria de coleccion.</p>
+
+		<h2>Aportes en relojeria premium</h2>
+		<ul>
+			<li>Acabados de alto nivel con gran consistencia de manufactura.</li>
+			<li>Integracion de tecnologia avanzada en calibres mecanicos y de alta precision.</li>
+			<li>Alta relacion valor-calidad en segmentos de lujo accesible y premium.</li>
+		</ul>
+
+		<h2>Marcas representativas</h2>
+		<ul>
+			<li>Grand Seiko - lujo japones con gran foco en precision y detalle.</li>
+			<li>Seiko - referencias historicas con fuerte interes de coleccionistas.</li>
+			<li>Credor - piezas finas y series limitadas de alto valor artesanal.</li>
+		</ul>
+
+		<a href="../pagina.html">Volver a RelojesDataVIP</a>
+	</main>
+</body>
+</html>
